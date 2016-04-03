@@ -1,0 +1,304 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'font-awesome',
+1 verbose cli   '--save' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json FrontProjects@0.0.0 No description
+5 warn package.json FrontProjects@0.0.0 No repository field.
+6 warn package.json FrontProjects@0.0.0 No README data
+7 warn package.json fs@0.0.2 No repository field.
+8 warn package.json gutil@1.6.4 No repository field.
+9 warn package.json gulp-minify-css@1.2.3 No repository field.
+10 warn package.json npm-server@0.0.1 No repository field.
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'font-awesome', null ]
+13 verbose cache add name=undefined spec="font-awesome" args=["font-awesome",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'font-awesome',
+14 verbose parsed url   path: 'font-awesome',
+14 verbose parsed url   href: 'font-awesome' }
+15 silly lockFile 17645f7a-font-awesome font-awesome
+16 verbose lock font-awesome /home/vyivrain/.npm/17645f7a-font-awesome.lock
+17 silly lockFile 17645f7a-font-awesome font-awesome
+18 silly lockFile 17645f7a-font-awesome font-awesome
+19 verbose addNamed [ 'font-awesome', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile 86ae45a4-font-awesome font-awesome@
+22 verbose lock font-awesome@ /home/vyivrain/.npm/86ae45a4-font-awesome.lock
+23 silly addNameRange { name: 'font-awesome', range: '*', hasData: false }
+24 verbose url raw font-awesome
+25 verbose url resolving [ 'https://registry.npmjs.org/', './font-awesome' ]
+26 verbose url resolved https://registry.npmjs.org/font-awesome
+27 info trying registry request attempt 1 at 11:04:38
+28 http GET https://registry.npmjs.org/font-awesome
+29 http 200 https://registry.npmjs.org/font-awesome
+30 silly registry.get cb [ 200,
+30 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     etag: '"3RE3DCVOIQ99CBJVXIRO6WQIJ"',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=300',
+30 silly registry.get     'content-length': '15604',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     date: 'Sun, 03 Apr 2016 08:04:38 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '118',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-fra1241-FRA',
+30 silly registry.get     'x-cache': 'HIT',
+30 silly registry.get     'x-cache-hits': '1',
+30 silly registry.get     'x-timer': 'S1459670678.804937,VS0,VE0',
+30 silly registry.get     vary: 'Accept' } ]
+31 silly addNameRange number 2 { name: 'font-awesome', range: '*', hasData: true }
+32 silly addNameRange versions [ 'font-awesome',
+32 silly addNameRange   [ '3.2.1', '4.0.3', '4.1.0', '4.2.0', '4.3.0', '4.4.0', '4.5.0' ] ]
+33 verbose addNamed [ 'font-awesome', '4.5.0' ]
+34 verbose addNamed [ '4.5.0', '4.5.0' ]
+35 silly lockFile 54c7d80c-font-awesome-4-5-0 font-awesome@4.5.0
+36 verbose lock font-awesome@4.5.0 /home/vyivrain/.npm/54c7d80c-font-awesome-4-5-0.lock
+37 silly lockFile 3cf7669b-t-awesome-font-awesome-4-5-0-tgz https://registry.npmjs.org/font-awesome/-/font-awesome-4.5.0.tgz
+38 verbose lock https://registry.npmjs.org/font-awesome/-/font-awesome-4.5.0.tgz /home/vyivrain/.npm/3cf7669b-t-awesome-font-awesome-4-5-0-tgz.lock
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/font-awesome/-/font-awesome-4.5.0.tgz',
+39 verbose addRemoteTarball   '1e9d7ccf7d63bdbe57000e18d5188cb2557e70f8' ]
+40 info retry fetch attempt 1 at 11:04:38
+41 verbose fetch to= /home/vyivrain/tmp/npm-6803-aLqhZCP6/1459670678779-0.9339577367063612/tmp.tgz
+42 http GET https://registry.npmjs.org/font-awesome/-/font-awesome-4.5.0.tgz
+43 http 200 https://registry.npmjs.org/font-awesome/-/font-awesome-4.5.0.tgz
+44 verbose tar unpack /home/vyivrain/tmp/npm-6803-aLqhZCP6/1459670678779-0.9339577367063612/tmp.tgz
+45 silly lockFile 79b70ea7-78779-0-9339577367063612-package tar:///home/vyivrain/tmp/npm-6803-aLqhZCP6/1459670678779-0.9339577367063612/package
+46 verbose lock tar:///home/vyivrain/tmp/npm-6803-aLqhZCP6/1459670678779-0.9339577367063612/package /home/vyivrain/.npm/79b70ea7-78779-0-9339577367063612-package.lock
+47 silly lockFile a2748014-78779-0-9339577367063612-tmp-tgz tar:///home/vyivrain/tmp/npm-6803-aLqhZCP6/1459670678779-0.9339577367063612/tmp.tgz
+48 verbose lock tar:///home/vyivrain/tmp/npm-6803-aLqhZCP6/1459670678779-0.9339577367063612/tmp.tgz /home/vyivrain/.npm/a2748014-78779-0-9339577367063612-tmp-tgz.lock
+49 silly gunzTarPerm modes [ '755', '644' ]
+50 silly gunzTarPerm extractEntry package.json
+51 silly gunzTarPerm extractEntry .npmignore
+52 silly gunzTarPerm extractEntry README.md
+53 silly gunzTarPerm extractEntry HELP-US-OUT.txt
+54 silly gunzTarPerm extractEntry css/font-awesome.css
+55 silly gunzTarPerm extractEntry css/font-awesome.css.map
+56 silly gunzTarPerm extractEntry css/font-awesome.min.css
+57 silly gunzTarPerm extractEntry fonts/FontAwesome.otf
+58 silly gunzTarPerm extractEntry fonts/fontawesome-webfont.eot
+59 silly gunzTarPerm extractEntry fonts/fontawesome-webfont.svg
+60 silly gunzTarPerm extractEntry fonts/fontawesome-webfont.ttf
+61 silly gunzTarPerm extractEntry fonts/fontawesome-webfont.woff
+62 silly gunzTarPerm extractEntry fonts/fontawesome-webfont.woff2
+63 silly gunzTarPerm extractEntry less/larger.less
+64 silly gunzTarPerm extractEntry less/animated.less
+65 silly gunzTarPerm extractEntry less/core.less
+66 silly gunzTarPerm extractEntry less/fixed-width.less
+67 silly gunzTarPerm extractEntry less/font-awesome.less
+68 silly gunzTarPerm extractEntry less/icons.less
+69 silly gunzTarPerm extractEntry less/bordered-pulled.less
+70 silly gunzTarPerm extractEntry less/list.less
+71 silly gunzTarPerm extractEntry less/mixins.less
+72 silly gunzTarPerm extractEntry less/path.less
+73 silly gunzTarPerm extractEntry less/rotated-flipped.less
+74 silly gunzTarPerm extractEntry less/stacked.less
+75 silly gunzTarPerm extractEntry less/variables.less
+76 silly gunzTarPerm extractEntry scss/_list.scss
+77 silly gunzTarPerm extractEntry scss/_animated.scss
+78 silly gunzTarPerm extractEntry scss/_core.scss
+79 silly gunzTarPerm extractEntry scss/_fixed-width.scss
+80 silly gunzTarPerm extractEntry scss/_icons.scss
+81 silly gunzTarPerm extractEntry scss/_larger.scss
+82 silly gunzTarPerm extractEntry scss/_bordered-pulled.scss
+83 silly gunzTarPerm extractEntry scss/_mixins.scss
+84 silly gunzTarPerm extractEntry scss/_path.scss
+85 silly gunzTarPerm extractEntry scss/_rotated-flipped.scss
+86 silly gunzTarPerm extractEntry scss/_stacked.scss
+87 silly gunzTarPerm extractEntry scss/_variables.scss
+88 silly gunzTarPerm extractEntry scss/font-awesome.scss
+89 silly lockFile 79b70ea7-78779-0-9339577367063612-package tar:///home/vyivrain/tmp/npm-6803-aLqhZCP6/1459670678779-0.9339577367063612/package
+90 silly lockFile 79b70ea7-78779-0-9339577367063612-package tar:///home/vyivrain/tmp/npm-6803-aLqhZCP6/1459670678779-0.9339577367063612/package
+91 silly lockFile a2748014-78779-0-9339577367063612-tmp-tgz tar:///home/vyivrain/tmp/npm-6803-aLqhZCP6/1459670678779-0.9339577367063612/tmp.tgz
+92 silly lockFile a2748014-78779-0-9339577367063612-tmp-tgz tar:///home/vyivrain/tmp/npm-6803-aLqhZCP6/1459670678779-0.9339577367063612/tmp.tgz
+93 verbose tar pack [ '/home/vyivrain/.npm/font-awesome/4.5.0/package.tgz',
+93 verbose tar pack   '/home/vyivrain/tmp/npm-6803-aLqhZCP6/1459670678779-0.9339577367063612/package' ]
+94 verbose tarball /home/vyivrain/.npm/font-awesome/4.5.0/package.tgz
+95 verbose folder /home/vyivrain/tmp/npm-6803-aLqhZCP6/1459670678779-0.9339577367063612/package
+96 silly lockFile 79b70ea7-78779-0-9339577367063612-package tar:///home/vyivrain/tmp/npm-6803-aLqhZCP6/1459670678779-0.9339577367063612/package
+97 verbose lock tar:///home/vyivrain/tmp/npm-6803-aLqhZCP6/1459670678779-0.9339577367063612/package /home/vyivrain/.npm/79b70ea7-78779-0-9339577367063612-package.lock
+98 silly lockFile 3cb9c6fe-m-font-awesome-4-5-0-package-tgz tar:///home/vyivrain/.npm/font-awesome/4.5.0/package.tgz
+99 verbose lock tar:///home/vyivrain/.npm/font-awesome/4.5.0/package.tgz /home/vyivrain/.npm/3cb9c6fe-m-font-awesome-4-5-0-package-tgz.lock
+100 silly lockFile 79b70ea7-78779-0-9339577367063612-package tar:///home/vyivrain/tmp/npm-6803-aLqhZCP6/1459670678779-0.9339577367063612/package
+101 silly lockFile 79b70ea7-78779-0-9339577367063612-package tar:///home/vyivrain/tmp/npm-6803-aLqhZCP6/1459670678779-0.9339577367063612/package
+102 silly lockFile 3cb9c6fe-m-font-awesome-4-5-0-package-tgz tar:///home/vyivrain/.npm/font-awesome/4.5.0/package.tgz
+103 silly lockFile 3cb9c6fe-m-font-awesome-4-5-0-package-tgz tar:///home/vyivrain/.npm/font-awesome/4.5.0/package.tgz
+104 silly lockFile cff08a9c-n-npm-font-awesome-4-5-0-package /home/vyivrain/.npm/font-awesome/4.5.0/package
+105 verbose lock /home/vyivrain/.npm/font-awesome/4.5.0/package /home/vyivrain/.npm/cff08a9c-n-npm-font-awesome-4-5-0-package.lock
+106 silly lockFile cff08a9c-n-npm-font-awesome-4-5-0-package /home/vyivrain/.npm/font-awesome/4.5.0/package
+107 silly lockFile cff08a9c-n-npm-font-awesome-4-5-0-package /home/vyivrain/.npm/font-awesome/4.5.0/package
+108 verbose tar unpack /home/vyivrain/.npm/font-awesome/4.5.0/package.tgz
+109 silly lockFile 24188855-n-npm-font-awesome-4-5-0-package tar:///home/vyivrain/.npm/font-awesome/4.5.0/package
+110 verbose lock tar:///home/vyivrain/.npm/font-awesome/4.5.0/package /home/vyivrain/.npm/24188855-n-npm-font-awesome-4-5-0-package.lock
+111 silly lockFile 3cb9c6fe-m-font-awesome-4-5-0-package-tgz tar:///home/vyivrain/.npm/font-awesome/4.5.0/package.tgz
+112 verbose lock tar:///home/vyivrain/.npm/font-awesome/4.5.0/package.tgz /home/vyivrain/.npm/3cb9c6fe-m-font-awesome-4-5-0-package-tgz.lock
+113 silly gunzTarPerm modes [ '755', '644' ]
+114 silly gunzTarPerm extractEntry package.json
+115 silly gunzTarPerm extractEntry .npmignore
+116 silly gunzTarPerm extractEntry README.md
+117 silly gunzTarPerm extractEntry HELP-US-OUT.txt
+118 silly gunzTarPerm extractEntry css/font-awesome.css
+119 silly gunzTarPerm extractEntry css/font-awesome.css.map
+120 silly gunzTarPerm extractEntry css/font-awesome.min.css
+121 silly gunzTarPerm extractEntry fonts/FontAwesome.otf
+122 silly gunzTarPerm extractEntry fonts/fontawesome-webfont.eot
+123 silly gunzTarPerm extractEntry fonts/fontawesome-webfont.svg
+124 silly gunzTarPerm extractEntry fonts/fontawesome-webfont.ttf
+125 silly gunzTarPerm extractEntry fonts/fontawesome-webfont.woff
+126 silly gunzTarPerm extractEntry fonts/fontawesome-webfont.woff2
+127 silly gunzTarPerm extractEntry less/larger.less
+128 silly gunzTarPerm extractEntry less/animated.less
+129 silly gunzTarPerm extractEntry less/core.less
+130 silly gunzTarPerm extractEntry less/fixed-width.less
+131 silly gunzTarPerm extractEntry less/font-awesome.less
+132 silly gunzTarPerm extractEntry less/icons.less
+133 silly gunzTarPerm extractEntry less/bordered-pulled.less
+134 silly gunzTarPerm extractEntry less/list.less
+135 silly gunzTarPerm extractEntry less/mixins.less
+136 silly gunzTarPerm extractEntry less/path.less
+137 silly gunzTarPerm extractEntry less/rotated-flipped.less
+138 silly gunzTarPerm extractEntry less/stacked.less
+139 silly gunzTarPerm extractEntry less/variables.less
+140 silly gunzTarPerm extractEntry scss/_list.scss
+141 silly gunzTarPerm extractEntry scss/_animated.scss
+142 silly gunzTarPerm extractEntry scss/_core.scss
+143 silly gunzTarPerm extractEntry scss/_fixed-width.scss
+144 silly gunzTarPerm extractEntry scss/_icons.scss
+145 silly gunzTarPerm extractEntry scss/_larger.scss
+146 silly gunzTarPerm extractEntry scss/_bordered-pulled.scss
+147 silly gunzTarPerm extractEntry scss/_mixins.scss
+148 silly gunzTarPerm extractEntry scss/_path.scss
+149 silly gunzTarPerm extractEntry scss/_rotated-flipped.scss
+150 silly gunzTarPerm extractEntry scss/_stacked.scss
+151 silly gunzTarPerm extractEntry scss/_variables.scss
+152 silly gunzTarPerm extractEntry scss/font-awesome.scss
+153 silly lockFile 24188855-n-npm-font-awesome-4-5-0-package tar:///home/vyivrain/.npm/font-awesome/4.5.0/package
+154 silly lockFile 24188855-n-npm-font-awesome-4-5-0-package tar:///home/vyivrain/.npm/font-awesome/4.5.0/package
+155 silly lockFile 3cb9c6fe-m-font-awesome-4-5-0-package-tgz tar:///home/vyivrain/.npm/font-awesome/4.5.0/package.tgz
+156 silly lockFile 3cb9c6fe-m-font-awesome-4-5-0-package-tgz tar:///home/vyivrain/.npm/font-awesome/4.5.0/package.tgz
+157 verbose chmod /home/vyivrain/.npm/font-awesome/4.5.0/package.tgz 644
+158 verbose chown /home/vyivrain/.npm/font-awesome/4.5.0/package.tgz [ 1000, 1000 ]
+159 silly lockFile 3cf7669b-t-awesome-font-awesome-4-5-0-tgz https://registry.npmjs.org/font-awesome/-/font-awesome-4.5.0.tgz
+160 silly lockFile 3cf7669b-t-awesome-font-awesome-4-5-0-tgz https://registry.npmjs.org/font-awesome/-/font-awesome-4.5.0.tgz
+161 silly lockFile 54c7d80c-font-awesome-4-5-0 font-awesome@4.5.0
+162 silly lockFile 54c7d80c-font-awesome-4-5-0 font-awesome@4.5.0
+163 silly lockFile 86ae45a4-font-awesome font-awesome@
+164 silly lockFile 86ae45a4-font-awesome font-awesome@
+165 silly resolved [ { name: 'font-awesome',
+165 silly resolved     description: 'The iconic font and CSS framework',
+165 silly resolved     version: '4.5.0',
+165 silly resolved     style: 'css/font-awesome.css',
+165 silly resolved     keywords: [ 'font', 'awesome', 'fontawesome', 'icon', 'font', 'bootstrap' ],
+165 silly resolved     homepage: 'http://fontawesome.io/',
+165 silly resolved     bugs: { url: 'http://github.com/FortAwesome/Font-Awesome/issues' },
+165 silly resolved     author:
+165 silly resolved      { name: 'Dave Gandy',
+165 silly resolved        email: 'dave@fontawesome.io',
+165 silly resolved        url: 'http://twitter.com/davegandy' },
+165 silly resolved     repository:
+165 silly resolved      { type: 'git',
+165 silly resolved        url: 'https://github.com/FortAwesome/Font-Awesome.git' },
+165 silly resolved     contributors: [ [Object], [Object], [Object] ],
+165 silly resolved     license: '(OFL-1.1 AND MIT)',
+165 silly resolved     dependencies: {},
+165 silly resolved     engines: { node: '>=0.10.3' },
+165 silly resolved     readme: '#[Font Awesome v4.5.0](http://fontawesome.io)\n###The iconic font and CSS framework\n\nFont Awesome is a full suite of 605 pictographic icons for easy scalable vector graphics on websites,\ncreated and maintained by [Dave Gandy](http://twitter.com/davegandy).\nStay up to date with the latest release and announcements on Twitter:\n[@fontawesome](http://twitter.com/fontawesome).\n\nGet started at http://fontawesome.io!\n\n##License\n- The Font Awesome font is licensed under the SIL OFL 1.1:\n  - http://scripts.sil.org/OFL\n- Font Awesome CSS, LESS, and Sass files are licensed under the MIT License:\n  - http://opensource.org/licenses/mit-license.html\n- The Font Awesome documentation is licensed under the CC BY 3.0 License:\n  - http://creativecommons.org/licenses/by/3.0/\n- Attribution is no longer required as of Font Awesome 3.0, but much appreciated:\n  - `Font Awesome by Dave Gandy - http://fontawesome.io`\n- Full details: http://fontawesome.io/license\n\n##Changelog\n- [v4.5.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?q=milestone%3A4.5.0+is%3Aclosed)\n- [v4.4.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?q=milestone%3A4.4.0+is%3Aclosed)\n- [v4.3.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?q=milestone%3A4.3.0+is%3Aclosed)\n- [v4.2.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=12&page=1&state=closed)\n- [v4.1.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=6&page=1&state=closed)\n- [v4.0.3 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=9&page=1&state=closed)\n- [v4.0.2 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=8&page=1&state=closed)\n- [v4.0.1 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=7&page=1&state=closed)\n- [v4.0.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=2&page=1&state=closed)\n- [v3.2.1 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=5&page=1&state=closed)\n- [v3.2.0 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=3&page=1&state=closed)\n- [v3.1.1 GitHub milestones](https://github.com/FortAwesome/Font-Awesome/issues?milestone=4&page=1&state=closed)\n- v3.1.0 - Added 54 icons, icon stacking styles, flipping and rotating icons, removed Sass support\n- v3.0.2 - much improved rendering and alignment in IE7\n- v3.0.1 - much improved rendering in webkit, various bug fixes\n- v3.0.0 - all icons redesigned from scratch, optimized for Bootstrap\'s 14px default\n\n## Contributing\n\nPlease read through our [contributing guidelines](https://github.com/FortAwesome/Font-Awesome/blob/master/CONTRIBUTING.md).\nIncluded are directions for opening issues, coding standards, and notes on development.\n\n##Versioning\n\nFont Awesome will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered\nwith the following format:\n\n`<major>.<minor>.<patch>`\n\nAnd constructed with the following guidelines:\n\n* Breaking backward compatibility bumps the major (and resets the minor and patch)\n* New additions, including new icons, without breaking backward compatibility bumps the minor (and resets the patch)\n* Bug fixes and misc changes bumps the patch\n\nFor more information on SemVer, please visit http://semver.org.\n\n##Author\n- Email: dave@fontawesome.io\n- Twitter: http://twitter.com/davegandy\n- GitHub: https://github.com/davegandy\n\n##Component\nTo include as a [component](http://github.com/component/component), just run\n\n    $ component install FortAwesome/Font-Awesome\n\nOr add\n\n    "FortAwesome/Font-Awesome": "*"\n\nto the `dependencies` in your `component.json`.\n\n## Hacking on Font Awesome\n\n**Before you can build the project**, you must first have the following installed:\n\n- [Ruby](https://www.ruby-lang.org/en/)\n- Ruby Development Headers\n  - **Ubuntu:** `sudo apt-get install ruby-dev` *(Only if you\'re __NOT__ using `rbenv` or `rvm`)*\n  - **Windows:** [DevKit](http://rubyinstaller.org/)\n- [Bundler](http://bundler.io/) (Run `gem install bundler` to install).\n- [Node Package Manager (AKA NPM)](https://docs.npmjs.com/getting-started/installing-node)\n- [Less](http://lesscss.org/) (Run `npm install -g less` to install).\n- [Less Plugin: Clean CSS](https://github.com/less/less-plugin-clean-css) (Run `npm install -g less-plugin-clean-css` to install).\n\nFrom the root of the repository, install the tools used to develop.\n\n    $ bundle install\n    $ npm install\n\nBuild the project and documentation:\n\n    $ bundle exec jekyll build\n\nOr serve it on a local server on http://localhost:7998/Font-Awesome/:\n\n    $ bundle exec jekyll -w serve\n',
+165 silly resolved     readmeFilename: 'README.md',
+165 silly resolved     _id: 'font-awesome@4.5.0',
+165 silly resolved     dist: { shasum: '0f6748e6948d39c2ce1dd75b7ad3d0e7da8a41d5' },
+165 silly resolved     _from: 'font-awesome@',
+165 silly resolved     _resolved: 'https://registry.npmjs.org/font-awesome/-/font-awesome-4.5.0.tgz' } ]
+166 info install font-awesome@4.5.0 into /home/vyivrain/Documents/FrontProjects
+167 info installOne font-awesome@4.5.0
+168 info /home/vyivrain/Documents/FrontProjects/node_modules/font-awesome unbuild
+169 verbose tar unpack /home/vyivrain/.npm/font-awesome/4.5.0/package.tgz
+170 silly lockFile 2f0f5ad3-ojects-node-modules-font-awesome tar:///home/vyivrain/Documents/FrontProjects/node_modules/font-awesome
+171 verbose lock tar:///home/vyivrain/Documents/FrontProjects/node_modules/font-awesome /home/vyivrain/.npm/2f0f5ad3-ojects-node-modules-font-awesome.lock
+172 silly lockFile 3cb9c6fe-m-font-awesome-4-5-0-package-tgz tar:///home/vyivrain/.npm/font-awesome/4.5.0/package.tgz
+173 verbose lock tar:///home/vyivrain/.npm/font-awesome/4.5.0/package.tgz /home/vyivrain/.npm/3cb9c6fe-m-font-awesome-4-5-0-package-tgz.lock
+174 silly gunzTarPerm modes [ '755', '644' ]
+175 silly gunzTarPerm extractEntry package.json
+176 silly gunzTarPerm extractEntry .npmignore
+177 silly gunzTarPerm extractEntry README.md
+178 silly gunzTarPerm extractEntry HELP-US-OUT.txt
+179 silly gunzTarPerm extractEntry css/font-awesome.css
+180 silly gunzTarPerm extractEntry css/font-awesome.css.map
+181 silly gunzTarPerm extractEntry css/font-awesome.min.css
+182 silly gunzTarPerm extractEntry fonts/FontAwesome.otf
+183 silly gunzTarPerm extractEntry fonts/fontawesome-webfont.eot
+184 silly gunzTarPerm extractEntry fonts/fontawesome-webfont.svg
+185 silly gunzTarPerm extractEntry fonts/fontawesome-webfont.ttf
+186 silly gunzTarPerm extractEntry fonts/fontawesome-webfont.woff
+187 silly gunzTarPerm extractEntry fonts/fontawesome-webfont.woff2
+188 silly gunzTarPerm extractEntry less/larger.less
+189 silly gunzTarPerm extractEntry less/animated.less
+190 silly gunzTarPerm extractEntry less/core.less
+191 silly gunzTarPerm extractEntry less/fixed-width.less
+192 silly gunzTarPerm extractEntry less/font-awesome.less
+193 silly gunzTarPerm extractEntry less/icons.less
+194 silly gunzTarPerm extractEntry less/bordered-pulled.less
+195 silly gunzTarPerm extractEntry less/list.less
+196 silly gunzTarPerm extractEntry less/mixins.less
+197 silly gunzTarPerm extractEntry less/path.less
+198 silly gunzTarPerm extractEntry less/rotated-flipped.less
+199 silly gunzTarPerm extractEntry less/stacked.less
+200 silly gunzTarPerm extractEntry less/variables.less
+201 silly gunzTarPerm extractEntry scss/_list.scss
+202 silly gunzTarPerm extractEntry scss/_animated.scss
+203 silly gunzTarPerm extractEntry scss/_core.scss
+204 silly gunzTarPerm extractEntry scss/_fixed-width.scss
+205 silly gunzTarPerm extractEntry scss/_icons.scss
+206 silly gunzTarPerm extractEntry scss/_larger.scss
+207 silly gunzTarPerm extractEntry scss/_bordered-pulled.scss
+208 silly gunzTarPerm extractEntry scss/_mixins.scss
+209 silly gunzTarPerm extractEntry scss/_path.scss
+210 silly gunzTarPerm extractEntry scss/_rotated-flipped.scss
+211 silly gunzTarPerm extractEntry scss/_stacked.scss
+212 silly gunzTarPerm extractEntry scss/_variables.scss
+213 silly gunzTarPerm extractEntry scss/font-awesome.scss
+214 silly lockFile 2f0f5ad3-ojects-node-modules-font-awesome tar:///home/vyivrain/Documents/FrontProjects/node_modules/font-awesome
+215 silly lockFile 2f0f5ad3-ojects-node-modules-font-awesome tar:///home/vyivrain/Documents/FrontProjects/node_modules/font-awesome
+216 silly lockFile 3cb9c6fe-m-font-awesome-4-5-0-package-tgz tar:///home/vyivrain/.npm/font-awesome/4.5.0/package.tgz
+217 silly lockFile 3cb9c6fe-m-font-awesome-4-5-0-package-tgz tar:///home/vyivrain/.npm/font-awesome/4.5.0/package.tgz
+218 info preinstall font-awesome@4.5.0
+219 verbose readDependencies using package.json deps
+220 verbose readDependencies using package.json deps
+221 silly resolved []
+222 verbose about to build /home/vyivrain/Documents/FrontProjects/node_modules/font-awesome
+223 info build /home/vyivrain/Documents/FrontProjects/node_modules/font-awesome
+224 verbose linkStuff [ false,
+224 verbose linkStuff   false,
+224 verbose linkStuff   false,
+224 verbose linkStuff   '/home/vyivrain/Documents/FrontProjects/node_modules' ]
+225 info linkStuff font-awesome@4.5.0
+226 verbose linkBins font-awesome@4.5.0
+227 verbose linkMans font-awesome@4.5.0
+228 verbose rebuildBundles font-awesome@4.5.0
+229 info install font-awesome@4.5.0
+230 info postinstall font-awesome@4.5.0
+231 warn unmet dependency /home/vyivrain/Documents/FrontProjects/node_modules/gulp-clean requires gulp-util@'^2.2.14' but will load
+231 warn unmet dependency /home/vyivrain/Documents/FrontProjects/node_modules/gulp-util,
+231 warn unmet dependency which is version 3.0.7
+232 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+232 error peerinvalid Peer react-dom@0.14.7 wants react@^0.14.7
+232 error peerinvalid Peer react-bootstrap@0.28.3 wants react@>=0.14.0
+232 error peerinvalid Peer react-addons-update@0.14.8 wants react@^0.14.8
+233 error System Linux 3.19.0-33-generic
+234 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "font-awesome" "--save"
+235 error cwd /home/vyivrain/Documents/FrontProjects
+236 error node -v v0.10.25
+237 error npm -v 1.3.10
+238 error code EPEERINVALID
+239 verbose exit [ 1, true ]
